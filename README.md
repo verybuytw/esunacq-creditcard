@@ -1,30 +1,7 @@
 Installation
 -------------
 
-`composer.json` append `repositories`
-```json
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@gitlab.cola-hughes.com:vb/payment-esunacq-creditcard.git"
-        }
-    ],
-```
-
-```shell
-$    composer require vb-payment/esunacq-creditcard
-```
-
 ### Use RequestBuilder generate form for esunacq creditcard
-
-
-> FORM POST URL `mobile` `testing` https://acqtest.esunbank.com.tw/ACQTrans/esuncard/txnf014m
-
-> FORM POST URL `mobile` `production` https://acq.esunbank.com.tw/ACQTrans/esuncard/txnf014m
-
-> FORM POST URL `desktop` `testing` https://acqtest.esunbank.com.tw/ACQTrans/esuncard/txnf014s
-
-> FORM POST URL `desktop` `production` https://acq.esunbank.com.tw/ACQTrans/esuncard/txnf014s
 
 
 ```php
