@@ -56,7 +56,7 @@ class RequestBuilder extends RequestBuilderContract implements EncryptInterface,
     /**
      * @param string $installment <ul><li>length: 7</li><li>分期代碼</li><li>IC</li></ul>
      *
-     * @return EsunAcqBuilder
+     * @return RequestBuilder
      */
     public function setInstallment($installment)
     {
@@ -68,7 +68,7 @@ class RequestBuilder extends RequestBuilderContract implements EncryptInterface,
     /**
      * @param bool $bonus <ul><li>length: 1</li><li>銀行紅利折抵</li><li>BPF</li></ul>
      *
-     * @return EsunAcqBuilder
+     * @return RequestBuilder
      */
     public function setBonus($bonus)
     {

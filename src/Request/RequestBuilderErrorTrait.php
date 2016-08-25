@@ -20,7 +20,7 @@ trait RequestBuilderErrorTrait
     }
 
     /**
-     * @return EsunAcqBuilder
+     * @return RequestBuilder
      */
     protected function initErrorCollectoin()
     {
@@ -56,7 +56,7 @@ trait RequestBuilderErrorTrait
     /**
      * @param string $error
      *
-     * @return EsunAcqBuilder
+     * @return RequestBuilder
      */
     public function addError($error)
     {

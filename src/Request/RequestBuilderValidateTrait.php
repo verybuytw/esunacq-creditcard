@@ -5,7 +5,7 @@ namespace VeryBuy\Payment\EsunBank\Acq\Request;
 trait RequestBuilderValidateTrait
 {
     /**
-     * @return EsunAcqBuilder
+     * @return RequestBuilder
      */
     public function validate()
     {
